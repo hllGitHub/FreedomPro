@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187AD5131D9B57EE001221E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5121D9B57EE001221E0 /* main.m */; };
+		187AD5161D9B57EE001221E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5151D9B57EE001221E0 /* AppDelegate.m */; };
+		187AD5191D9B57EE001221E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5181D9B57EE001221E0 /* ViewController.m */; };
+		187AD51C1D9B57EE001221E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51A1D9B57EE001221E0 /* Main.storyboard */; };
+		187AD51E1D9B57EE001221E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51D1D9B57EE001221E0 /* Assets.xcassets */; };
+		187AD5211D9B57EE001221E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */; };
+		187AD52C1D9B57EE001221E0 /* MyFreedomProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD52B1D9B57EE001221E0 /* MyFreedomProTests.m */; };
+		187AD5371D9B57EE001221E0 /* MyFreedomProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5361D9B57EE001221E0 /* MyFreedomProUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187AD5281D9B57EE001221E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187AD5061D9B57EC001221E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187AD50D1D9B57EC001221E0;
+			remoteInfo = MyFreedomPro;
+		};
+		187AD5331D9B57EE001221E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187AD5061D9B57EC001221E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187AD50D1D9B57EC001221E0;
+			remoteInfo = MyFreedomPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187AD50E1D9B57ED001221E0 /* MyFreedomPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFreedomPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AD5121D9B57EE001221E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187AD5141D9B57EE001221E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187AD5151D9B57EE001221E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187AD5171D9B57EE001221E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187AD5181D9B57EE001221E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187AD51B1D9B57EE001221E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187AD51D1D9B57EE001221E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187AD5201D9B57EE001221E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187AD5221D9B57EE001221E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AD5271D9B57EE001221E0 /* MyFreedomProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFreedomProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AD52B1D9B57EE001221E0 /* MyFreedomProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFreedomProTests.m; sourceTree = "<group>"; };
+		187AD52D1D9B57EE001221E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AD5321D9B57EE001221E0 /* MyFreedomProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFreedomProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AD5361D9B57EE001221E0 /* MyFreedomProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFreedomProUITests.m; sourceTree = "<group>"; };
+		187AD5381D9B57EE001221E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187AD50B1D9B57EC001221E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD5241D9B57EE001221E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD52F1D9B57EE001221E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187AD5051D9B57EC001221E0 = {
+			isa = PBXGroup;
+			children = (
+				187AD5101D9B57ED001221E0 /* MyFreedomPro */,
+				187AD52A1D9B57EE001221E0 /* MyFreedomProTests */,
+				187AD5351D9B57EE001221E0 /* MyFreedomProUITests */,
+				187AD50F1D9B57ED001221E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187AD50F1D9B57ED001221E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187AD50E1D9B57ED001221E0 /* MyFreedomPro.app */,
+				187AD5271D9B57EE001221E0 /* MyFreedomProTests.xctest */,
+				187AD5321D9B57EE001221E0 /* MyFreedomProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187AD5101D9B57ED001221E0 /* MyFreedomPro */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5141D9B57EE001221E0 /* AppDelegate.h */,
+				187AD5151D9B57EE001221E0 /* AppDelegate.m */,
+				187AD5171D9B57EE001221E0 /* ViewController.h */,
+				187AD5181D9B57EE001221E0 /* ViewController.m */,
+				187AD51A1D9B57EE001221E0 /* Main.storyboard */,
+				187AD51D1D9B57EE001221E0 /* Assets.xcassets */,
+				187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */,
+				187AD5221D9B57EE001221E0 /* Info.plist */,
+				187AD5111D9B57EE001221E0 /* Supporting Files */,
+			);
+			path = MyFreedomPro;
+			sourceTree = "<group>";
+		};
+		187AD5111D9B57EE001221E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5121D9B57EE001221E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187AD52A1D9B57EE001221E0 /* MyFreedomProTests */ = {
+			isa = PBXGroup;
+			children = (
+				187AD52B1D9B57EE001221E0 /* MyFreedomProTests.m */,
+				187AD52D1D9B57EE001221E0 /* Info.plist */,
+			);
+			path = MyFreedomProTests;
+			sourceTree = "<group>";
+		};
+		187AD5351D9B57EE001221E0 /* MyFreedomProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5361D9B57EE001221E0 /* MyFreedomProUITests.m */,
+				187AD5381D9B57EE001221E0 /* Info.plist */,
+			);
+			path = MyFreedomProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187AD50D1D9B57EC001221E0 /* MyFreedomPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AD53B1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomPro" */;
+			buildPhases = (
+				187AD50A1D9B57EC001221E0 /* Sources */,
+				187AD50B1D9B57EC001221E0 /* Frameworks */,
+				187AD50C1D9B57EC001221E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFreedomPro;
+			productName = MyFreedomPro;
+			productReference = 187AD50E1D9B57ED001221E0 /* MyFreedomPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187AD5261D9B57EE001221E0 /* MyFreedomProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AD53E1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProTests" */;
+			buildPhases = (
+				187AD5231D9B57EE001221E0 /* Sources */,
+				187AD5241D9B57EE001221E0 /* Frameworks */,
+				187AD5251D9B57EE001221E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187AD5291D9B57EE001221E0 /* PBXTargetDependency */,
+			);
+			name = MyFreedomProTests;
+			productName = MyFreedomProTests;
+			productReference = 187AD5271D9B57EE001221E0 /* MyFreedomProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187AD5311D9B57EE001221E0 /* MyFreedomProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AD5411D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProUITests" */;
+			buildPhases = (
+				187AD52E1D9B57EE001221E0 /* Sources */,
+				187AD52F1D9B57EE001221E0 /* Frameworks */,
+				187AD5301D9B57EE001221E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187AD5341D9B57EE001221E0 /* PBXTargetDependency */,
+			);
+			name = MyFreedomProUITests;
+			productName = MyFreedomProUITests;
+			productReference = 187AD5321D9B57EE001221E0 /* MyFreedomProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187AD5061D9B57EC001221E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "亮哥";
+				TargetAttributes = {
+					187AD50D1D9B57EC001221E0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					187AD5261D9B57EE001221E0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187AD50D1D9B57EC001221E0;
+					};
+					187AD5311D9B57EE001221E0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187AD50D1D9B57EC001221E0;
+					};
+				};
+			};
+			buildConfigurationList = 187AD5091D9B57EC001221E0 /* Build configuration list for PBXProject "MyFreedomPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187AD5051D9B57EC001221E0;
+			productRefGroup = 187AD50F1D9B57ED001221E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187AD50D1D9B57EC001221E0 /* MyFreedomPro */,
+				187AD5261D9B57EE001221E0 /* MyFreedomProTests */,
+				187AD5311D9B57EE001221E0 /* MyFreedomProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187AD50C1D9B57EC001221E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AD5211D9B57EE001221E0 /* LaunchScreen.storyboard in Resources */,
+				187AD51E1D9B57EE001221E0 /* Assets.xcassets in Resources */,
+				187AD51C1D9B57EE001221E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD5251D9B57EE001221E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD5301D9B57EE001221E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187AD50A1D9B57EC001221E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AD5191D9B57EE001221E0 /* ViewController.m in Sources */,
+				187AD5161D9B57EE001221E0 /* AppDelegate.m in Sources */,
+				187AD5131D9B57EE001221E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD5231D9B57EE001221E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AD52C1D9B57EE001221E0 /* MyFreedomProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AD52E1D9B57EE001221E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AD5371D9B57EE001221E0 /* MyFreedomProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187AD5291D9B57EE001221E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187AD50D1D9B57EC001221E0 /* MyFreedomPro */;
+			targetProxy = 187AD5281D9B57EE001221E0 /* PBXContainerItemProxy */;
+		};
+		187AD5341D9B57EE001221E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187AD50D1D9B57EC001221E0 /* MyFreedomPro */;
+			targetProxy = 187AD5331D9B57EE001221E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187AD51A1D9B57EE001221E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187AD51B1D9B57EE001221E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187AD5201D9B57EE001221E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187AD5391D9B57EE001221E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187AD53A1D9B57EE001221E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187AD53C1D9B57EE001221E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFreedomPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187AD53D1D9B57EE001221E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFreedomPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187AD53F1D9B57EE001221E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFreedomProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFreedomPro.app/MyFreedomPro";
+			};
+			name = Debug;
+		};
+		187AD5401D9B57EE001221E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFreedomProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFreedomPro.app/MyFreedomPro";
+			};
+			name = Release;
+		};
+		187AD5421D9B57EE001221E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFreedomProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFreedomPro;
+			};
+			name = Debug;
+		};
+		187AD5431D9B57EE001221E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFreedomProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFreedomPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187AD5091D9B57EC001221E0 /* Build configuration list for PBXProject "MyFreedomPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AD5391D9B57EE001221E0 /* Debug */,
+				187AD53A1D9B57EE001221E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187AD53B1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AD53C1D9B57EE001221E0 /* Debug */,
+				187AD53D1D9B57EE001221E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187AD53E1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AD53F1D9B57EE001221E0 /* Debug */,
+				187AD5401D9B57EE001221E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187AD5411D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AD5421D9B57EE001221E0 /* Debug */,
+				187AD5431D9B57EE001221E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187AD5061D9B57EC001221E0 /* Project object */;
+}
