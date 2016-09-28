@@ -1,0 +1,177 @@
+//
+//  Config.pch
+//  ThinkIOS
+//
+//  Created by Apple on 15/12/29.
+//  Copyright © 2015年 Apple. All rights reserved.
+//
+
+#ifndef Config_pch
+#define Config_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Config_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define CUSTOM_STYLE @"customStyle"
+
+#endif
+/**
+ *  接口方法及接口定义
+ */
+#define GET_SERVER(server) [NSString stringWithFormat:@"%@/%@", HOST_URL, server]   // 获取服务接口
+#define GET_SERVER_MOCK(server) [NSString stringWithFormat:@"%@/%@", EXAM_HOST_URL, server] //新测试接口
+
+#define YLURL(server, method) [NSString stringWithFormat:@"%@/%@", server, method]  // 获取url
+#define EXAM_URL(method)   [NSString stringWithFormat:@"%@/exam/%@", EXAM_HOST_URL, method]
+
+//#define HOST_URL                                                                                                               @"http://192.168.1.10:8080/xiaoan-api"         // 测试地址2 rick
+//#define HOST_URL            @"https://api.xiaoan.online/1.0"         // 正式地址 https
+#define HOST_URL            @"https://api.xiaoan.online/1.0"         // 正式地址 http
+//#define HOST_URL            @"http://192.168.1.100:8080/xiaoan-api"         // 测试地址1
+//#define HOST_URL            @"https://192.168.1.100:8443/XAschool"           // 其他服务测试地址
+//#define HOST_URL            @"https://115.28.186.95:8443/XAschool"      // 其他服务地址
+//#define HOST_URL            @"https://www.xiaoan.online/XAschool"      // 其他服务地址 正式域名
+//#define EXAM_HOST_URL            @"https://192.168.1.100:8443/XAschool"           // 正式考试测试地址
+//#define EXAM_HOST_URL       @"https://139.196.240.58:8443/XAschool"     // 正式考试地址
+#define EXAM_HOST_URL       @"https://www.xiaoan.online/XAschool"     // 正式考试地址 正式域名
+//#define EXAM_HOST_URL       @"https://api.xiaoan.online/1.0"     // 正式考试地址 正式域名 新地址
+
+#define COMMON_SERVER       GET_SERVER(@"common")                                                                                                     // 通用接口
+#define DISTRICT_SERVER     GET_SERVER(@"district")                     // 省市区管理
+#define SCHOOL_SERVER       GET_SERVER(@"school")                       // 学校接口
+#define STUDENT_SERVER      GET_SERVER(@"student")                      // 用户接口
+#define NOTICE_SERVER       GET_SERVER(@"notice")                       // 通知接口
+
+
+#define APPEAL_SERVER       GET_SERVER(@"appeal")                       // 申诉接口
+#define AD_SERVER           GET_SERVER(@"ads")                          // 广告接口
+#define AUTH_SERVER         GET_SERVER(@"auth")                         // 认证接口
+#define TEAM_SERVER         GET_SERVER(@"studentTeam")                  // 社团接口
+#define SWITCH_SERVER       GET_SERVER(@"switch")                       // 控制开关接口
+#define APP_SERVER          GET_SERVER(@"app")                          // app更新接口
+#define MSG_SERVER          GET_SERVER(@"msg")                          // 系统消息接口
+
+#define QUESTION_SERVER     GET_SERVER_MOCK(@"question")                     // 题库接口
+#define TEST_SERVER         GET_SERVER_MOCK(@"test")                         // 模拟考试接口
+#define EXAM_SERVER         GET_SERVER_MOCK(@"exam")                         // 考试管理接口
+
+/**
+ *  全局宏定义
+ */
+#define USERNAME            @"username"         // 登陆用户名
+#define PASSWORD            @"password"         // 登陆密码
+#define TOKEN               @"token"            // 授权token
+
+/**
+ *  定义做题记录保存名称及用户ID
+ */
+#define JPUSH_KEY           @"jpushKey"
+#define ORDER_RECORD_LIST   @"orderRecordList"
+#define SUBJECT_RECORD_LIST @"subjectRecordList"
+#define COLLECTION_RECORD_LIST @"collectionRecordList"
+#define TEMP_RECORD_LIST    @"tempRecordList"
+#define USER_ID             @"user_id"
+#define COLLECTION_LIST     @"collectionList"
+#define OFFICIAL_EXAM_RECORD_LIST @"offcialExamRecordList"
+#define OFFICIAL_EXAM_RESULT_RECORD_LIST @"officialExamResultRecordList"
+#define EXAM_ID             @"exam_id"
+
+/**
+ *  定义通知名称及类型
+ */
+#define kThemeDidChangeNotification @"kThemeDidChangeNotification"  // 换肤通知
+#define REMOTE_LOGIN                @"remote_login"                 // 异地登录通知
+#define MESSAGE_PUSH                @"messagePush"                  // 系统消息通知
+
+#define AUTH_STATUS_PUSH            @"authStatusPush"               // 认证状态通知
+
+/**
+ *  各开放平台 AppId & Secret  （目前没有账号，所以这块都是假数据）
+ */
+/* 友盟 */  //真实
+#define UMENG_APP_KEY       @"56e7ab1067e58e19740005e7"
+
+/* QQ开发 */  //real
+#define QQ_APP_ID           @"1105159655"
+#define QQ_APP_KEY          @"IDq3ehCaMel8xJRu"
+
+/* 微信开发 */ //real
+#define WECHAT_APP_ID      @"wx875a6c9ce023f2aa"
+#define WECHAT_App_SECRET  @"a2ceb714b7dd70353f4dc7f79906f3da"
+
+/* 微博开发 */  //wait
+#define WEIBO_APP_KEY       @"191367250"
+#define WEIBO_APP_SECRET    @"43620a1b6931e2647c262409aeb336b8"
+
+/* 友盟微社区 */  //real
+#define UMengCommunityAppkey @"56e7ab1067e58e19740005e7" //test
+#define UMengCommunityAppSecret @"7384b10d180a0309ac164688415905f5"
+
+/* JSPatch */
+#define JSPATCH_APP_KEY @"39583a591c4d0f47"
+
+
+/////////////////////* 宏定义方法 *////////////////////////
+
+
+/**
+ *  字符串容错
+ */
+#define USTR(string) string == nil?@"":string
+
+// 系统版本比较
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+/**
+ *  获取屏幕尺寸
+ */
+#define KSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define KSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+/**
+ *  获取元素的横纵坐标
+ */
+#define K_GETPOSITION_X(Ele)    Ele.frame.origin.x
+#define K_GETPOSITION_Y(Ele)    Ele.frame.origin.y
+
+/**
+ *  获取元素的宽高尺寸
+ */
+#define K_GETSIZE_WIDTH(Ele)    Ele.frame.size.width
+#define K_GETSIZE_HEIGHT(Ele)   Ele.frame.size.height
+
+/**
+ *  定义颜色
+ */
+#define K_COLOR_RGB(RED, GREEN, BLUE, ALPHA)	[UIColor colorWithRed:RED/255.0 green:GREEN/255.0 blue:BLUE/255.0 alpha:ALPHA]
+
+
+/**
+ *  BUG调试状态下输出函数
+ *  @return 输出函数
+ */
+#ifdef DEBUG
+
+#define DB_Log(fmt, ...) NSLog((@"%s," "[lineNum:%d]" fmt) , __FUNCTION__, __LINE__, ##__VA_ARGS__);    // 输出函数名和行数
+#define DL_Log(fmt, ...) NSLog((@"===[lineNum:%d]" fmt), __LINE__, ##__VA_ARGS__);                      // 输出行数
+#define DC_Log(fmt, ...) NSLog((fmt), ##__VA_ARGS__);                                                   // 不输出函数名和行数
+
+#else
+
+#define DB_Log(fmt, ...);
+#define DL_Log(fmt, ...);
+#define DC_Log(fmt, ...);
+
+#endif
+
+

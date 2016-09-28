@@ -1,0 +1,62 @@
+//
+//  HLLConfig.pch
+//  MyFreedomPro
+//
+//  Created by Apple on 16/9/28.
+//  Copyright © 2016年 亮哥. All rights reserved.
+//
+
+#ifndef HLLConfig_pch
+#define HLLConfig_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HLLConfig_pch */
+
+#if __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import "UIColor+ZYLHexColor.h"
+
+#endif
+
+/**
+ *  宏定义
+ */
+
+
+/**
+ *  获取屏幕尺寸
+ */
+#define KSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define KSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+/**
+ *  定义颜色
+ */
+#define K_COLOR_RGB(RED, GREEN, BLUE, ALPHA)	[UIColor colorWithRed:RED/255.0 green:GREEN/255.0 blue:BLUE/255.0 alpha:ALPHA]
+
+
+/**
+ *  BUG调试状态下输出函数
+ *  @return 输出函数
+ */
+#ifdef DEBUG
+
+#define DB_Log(fmt, ...) NSLog((@"%s," "[lineNum:%d]" fmt) , __FUNCTION__, __LINE__, ##__VA_ARGS__);    // 输出函数名和行数
+#define DL_Log(fmt, ...) NSLog((@"===[lineNum:%d]" fmt), __LINE__, ##__VA_ARGS__);                      // 输出行数
+#define DC_Log(fmt, ...) NSLog((fmt), ##__VA_ARGS__);                                                   // 不输出函数名和行数
+
+#else
+
+#define DB_Log(fmt, ...);
+#define DL_Log(fmt, ...);
+#define DC_Log(fmt, ...);
+
+#endif

@@ -8,13 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		187AD5131D9B57EE001221E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5121D9B57EE001221E0 /* main.m */; };
-		187AD5161D9B57EE001221E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5151D9B57EE001221E0 /* AppDelegate.m */; };
-		187AD5191D9B57EE001221E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5181D9B57EE001221E0 /* ViewController.m */; };
-		187AD51C1D9B57EE001221E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51A1D9B57EE001221E0 /* Main.storyboard */; };
 		187AD51E1D9B57EE001221E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51D1D9B57EE001221E0 /* Assets.xcassets */; };
-		187AD5211D9B57EE001221E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */; };
 		187AD52C1D9B57EE001221E0 /* MyFreedomProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD52B1D9B57EE001221E0 /* MyFreedomProTests.m */; };
 		187AD5371D9B57EE001221E0 /* MyFreedomProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5361D9B57EE001221E0 /* MyFreedomProUITests.m */; };
+		187AD5841D9B5DAD001221E0 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5481D9B5DAD001221E0 /* NSString+Date.m */; };
+		187AD5851D9B5DAD001221E0 /* NSDate+ZYLDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD54B1D9B5DAD001221E0 /* NSDate+ZYLDateExtension.m */; };
+		187AD5861D9B5DAD001221E0 /* NSString+ZYLEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD54D1D9B5DAD001221E0 /* NSString+ZYLEmoji.m */; };
+		187AD5871D9B5DAD001221E0 /* UIColor+ZYLHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD54F1D9B5DAD001221E0 /* UIColor+ZYLHexColor.m */; };
+		187AD5881D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5511D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.m */; };
+		187AD5891D9B5DAD001221E0 /* UIImage+Watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5531D9B5DAD001221E0 /* UIImage+Watermark.m */; };
+		187AD58A1D9B5DAD001221E0 /* UIView+GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5551D9B5DAD001221E0 /* UIView+GradientView.m */; };
+		187AD58B1D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5581D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.m */; };
+		187AD58C1D9B5DAD001221E0 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD55A1D9B5DAD001221E0 /* UIImage+YYWebImage.m */; };
+		187AD58D1D9B5DAD001221E0 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD55C1D9B5DAD001221E0 /* UIView+YYAdd.m */; };
+		187AD58E1D9B5DAD001221E0 /* ExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5671D9B5DAD001221E0 /* ExpandButton.m */; };
+		187AD58F1D9B5DAD001221E0 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5691D9B5DAD001221E0 /* Factory.m */; };
+		187AD5901D9B5DAD001221E0 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD56B1D9B5DAD001221E0 /* UIImageView+CornerRadius.m */; };
+		187AD5911D9B5DAD001221E0 /* HyPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD56E1D9B5DAD001221E0 /* HyPopMenuView.m */; };
+		187AD5921D9B5DAD001221E0 /* MenuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5701D9B5DAD001221E0 /* MenuLabel.m */; };
+		187AD5931D9B5DAD001221E0 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5721D9B5DAD001221E0 /* UIColor+ImageGetColor.m */; };
+		187AD5941D9B5DAD001221E0 /* LineProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5751D9B5DAD001221E0 /* LineProgressLayer.m */; };
+		187AD5951D9B5DAD001221E0 /* LineProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5771D9B5DAD001221E0 /* LineProgressView.m */; };
+		187AD5961D9B5DAD001221E0 /* MBProgressHUD+ZYL.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD57A1D9B5DAD001221E0 /* MBProgressHUD+ZYL.m */; };
+		187AD5971D9B5DAD001221E0 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD57E1D9B5DAD001221E0 /* Utility.m */; };
+		187AD5981D9B5DAD001221E0 /* HLLCleanCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AD5821D9B5DAD001221E0 /* HLLCleanCache.m */; };
+		189FE7101D9B631F00304409 /* HLLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE70F1D9B631F00304409 /* HLLAppDelegate.m */; };
+		189FE71D1D9B65EA00304409 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE71C1D9B65EA00304409 /* BaseViewController.m */; };
+		189FE7201D9B65F500304409 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE71F1D9B65F500304409 /* BaseModel.m */; };
+		189FE7231D9B662000304409 /* HLLHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE7221D9B662000304409 /* HLLHomePageViewController.m */; };
+		189FE7261D9B66BB00304409 /* HLLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE7251D9B66BB00304409 /* HLLTabbarController.m */; };
+		189FE7281D9B6B0900304409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189FE7271D9B6B0900304409 /* Main.storyboard */; };
+		189FE72A1D9B6B4D00304409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189FE7291D9B6B4D00304409 /* LaunchScreen.storyboard */; };
+		EE7AF148724F78EF589E62D3 /* libPods-MyFreedomPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F4A3FCC44E9CADDC392A40 /* libPods-MyFreedomPro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1837A55E1D9B5ED200D07638 /* HLLConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLConfig.pch; sourceTree = "<group>"; };
 		187AD50E1D9B57ED001221E0 /* MyFreedomPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFreedomPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187AD5121D9B57EE001221E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		187AD5141D9B57EE001221E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		187AD5151D9B57EE001221E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187AD5171D9B57EE001221E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		187AD5181D9B57EE001221E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		187AD51B1D9B57EE001221E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187AD51D1D9B57EE001221E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		187AD5201D9B57EE001221E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187AD5221D9B57EE001221E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187AD5271D9B57EE001221E0 /* MyFreedomProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFreedomProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187AD52B1D9B57EE001221E0 /* MyFreedomProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFreedomProTests.m; sourceTree = "<group>"; };
@@ -51,6 +71,64 @@
 		187AD5321D9B57EE001221E0 /* MyFreedomProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFreedomProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187AD5361D9B57EE001221E0 /* MyFreedomProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFreedomProUITests.m; sourceTree = "<group>"; };
 		187AD5381D9B57EE001221E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AD5471D9B5DAD001221E0 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		187AD5481D9B5DAD001221E0 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		187AD54A1D9B5DAD001221E0 /* NSDate+ZYLDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZYLDateExtension.h"; sourceTree = "<group>"; };
+		187AD54B1D9B5DAD001221E0 /* NSDate+ZYLDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZYLDateExtension.m"; sourceTree = "<group>"; };
+		187AD54C1D9B5DAD001221E0 /* NSString+ZYLEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZYLEmoji.h"; sourceTree = "<group>"; };
+		187AD54D1D9B5DAD001221E0 /* NSString+ZYLEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZYLEmoji.m"; sourceTree = "<group>"; };
+		187AD54E1D9B5DAD001221E0 /* UIColor+ZYLHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYLHexColor.h"; sourceTree = "<group>"; };
+		187AD54F1D9B5DAD001221E0 /* UIColor+ZYLHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYLHexColor.m"; sourceTree = "<group>"; };
+		187AD5501D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLLCutAndMerge.h"; sourceTree = "<group>"; };
+		187AD5511D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLLCutAndMerge.m"; sourceTree = "<group>"; };
+		187AD5521D9B5DAD001221E0 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
+		187AD5531D9B5DAD001221E0 /* UIImage+Watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Watermark.m"; sourceTree = "<group>"; };
+		187AD5541D9B5DAD001221E0 /* UIView+GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientView.h"; sourceTree = "<group>"; };
+		187AD5551D9B5DAD001221E0 /* UIView+GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientView.m"; sourceTree = "<group>"; };
+		187AD5571D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
+		187AD5581D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
+		187AD5591D9B5DAD001221E0 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYWebImage.h"; sourceTree = "<group>"; };
+		187AD55A1D9B5DAD001221E0 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		187AD55B1D9B5DAD001221E0 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		187AD55C1D9B5DAD001221E0 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		187AD5661D9B5DAD001221E0 /* ExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandButton.h; sourceTree = "<group>"; };
+		187AD5671D9B5DAD001221E0 /* ExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandButton.m; sourceTree = "<group>"; };
+		187AD5681D9B5DAD001221E0 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		187AD5691D9B5DAD001221E0 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		187AD56A1D9B5DAD001221E0 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		187AD56B1D9B5DAD001221E0 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		187AD56D1D9B5DAD001221E0 /* HyPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyPopMenuView.h; sourceTree = "<group>"; };
+		187AD56E1D9B5DAD001221E0 /* HyPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyPopMenuView.m; sourceTree = "<group>"; };
+		187AD56F1D9B5DAD001221E0 /* MenuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLabel.h; sourceTree = "<group>"; };
+		187AD5701D9B5DAD001221E0 /* MenuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLabel.m; sourceTree = "<group>"; };
+		187AD5711D9B5DAD001221E0 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
+		187AD5721D9B5DAD001221E0 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		187AD5741D9B5DAD001221E0 /* LineProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineProgressLayer.h; sourceTree = "<group>"; };
+		187AD5751D9B5DAD001221E0 /* LineProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineProgressLayer.m; sourceTree = "<group>"; };
+		187AD5761D9B5DAD001221E0 /* LineProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineProgressView.h; sourceTree = "<group>"; };
+		187AD5771D9B5DAD001221E0 /* LineProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineProgressView.m; sourceTree = "<group>"; };
+		187AD5791D9B5DAD001221E0 /* MBProgressHUD+ZYL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZYL.h"; sourceTree = "<group>"; };
+		187AD57A1D9B5DAD001221E0 /* MBProgressHUD+ZYL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZYL.m"; sourceTree = "<group>"; };
+		187AD57C1D9B5DAD001221E0 /* Config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		187AD57D1D9B5DAD001221E0 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		187AD57E1D9B5DAD001221E0 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		187AD5811D9B5DAD001221E0 /* HLLCleanCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCleanCache.h; sourceTree = "<group>"; };
+		187AD5821D9B5DAD001221E0 /* HLLCleanCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCleanCache.m; sourceTree = "<group>"; };
+		189FE70E1D9B631F00304409 /* HLLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLAppDelegate.h; sourceTree = "<group>"; };
+		189FE70F1D9B631F00304409 /* HLLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLAppDelegate.m; sourceTree = "<group>"; };
+		189FE71B1D9B65EA00304409 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		189FE71C1D9B65EA00304409 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		189FE71E1D9B65F500304409 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		189FE71F1D9B65F500304409 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		189FE7211D9B662000304409 /* HLLHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHomePageViewController.h; sourceTree = "<group>"; };
+		189FE7221D9B662000304409 /* HLLHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHomePageViewController.m; sourceTree = "<group>"; };
+		189FE7241D9B66BB00304409 /* HLLTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLTabbarController.h; sourceTree = "<group>"; };
+		189FE7251D9B66BB00304409 /* HLLTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLTabbarController.m; sourceTree = "<group>"; };
+		189FE7271D9B6B0900304409 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		189FE7291D9B6B4D00304409 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FF73012056E419B4DA63AB1 /* Pods-MyFreedomPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFreedomPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFreedomPro/Pods-MyFreedomPro.debug.xcconfig"; sourceTree = "<group>"; };
+		56F4A3FCC44E9CADDC392A40 /* libPods-MyFreedomPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFreedomPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8955D7EEDDC055FDEB550893 /* Pods-MyFreedomPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFreedomPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFreedomPro/Pods-MyFreedomPro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7AF148724F78EF589E62D3 /* libPods-MyFreedomPro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +164,8 @@
 				187AD52A1D9B57EE001221E0 /* MyFreedomProTests */,
 				187AD5351D9B57EE001221E0 /* MyFreedomProUITests */,
 				187AD50F1D9B57ED001221E0 /* Products */,
+				68BD58E98E7BD337C95B7047 /* Pods */,
+				C4835EB24AD7D6DE91ED3635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +182,8 @@
 		187AD5101D9B57ED001221E0 /* MyFreedomPro */ = {
 			isa = PBXGroup;
 			children = (
-				187AD5141D9B57EE001221E0 /* AppDelegate.h */,
-				187AD5151D9B57EE001221E0 /* AppDelegate.m */,
-				187AD5171D9B57EE001221E0 /* ViewController.h */,
-				187AD5181D9B57EE001221E0 /* ViewController.m */,
-				187AD51A1D9B57EE001221E0 /* Main.storyboard */,
-				187AD51D1D9B57EE001221E0 /* Assets.xcassets */,
-				187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */,
-				187AD5221D9B57EE001221E0 /* Info.plist */,
+				187AD5441D9B5DAD001221E0 /* Classes */,
+				187AD5831D9B5DAD001221E0 /* Resources */,
 				187AD5111D9B57EE001221E0 /* Supporting Files */,
 			);
 			path = MyFreedomPro;
@@ -117,7 +192,14 @@
 		187AD5111D9B57EE001221E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				189FE7271D9B6B0900304409 /* Main.storyboard */,
+				187AD51D1D9B57EE001221E0 /* Assets.xcassets */,
+				189FE7291D9B6B4D00304409 /* LaunchScreen.storyboard */,
+				187AD5221D9B57EE001221E0 /* Info.plist */,
 				187AD5121D9B57EE001221E0 /* main.m */,
+				1837A55E1D9B5ED200D07638 /* HLLConfig.pch */,
+				189FE70E1D9B631F00304409 /* HLLAppDelegate.h */,
+				189FE70F1D9B631F00304409 /* HLLAppDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +222,272 @@
 			path = MyFreedomProUITests;
 			sourceTree = "<group>";
 		};
+		187AD5441D9B5DAD001221E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				187AD55D1D9B5DAD001221E0 /* Items */,
+				187AD5451D9B5DAD001221E0 /* Categories */,
+				187AD5641D9B5DAD001221E0 /* Libs */,
+				187AD57F1D9B5DAD001221E0 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		187AD5451D9B5DAD001221E0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5461D9B5DAD001221E0 /* DatePart */,
+				187AD5491D9B5DAD001221E0 /* UIPart */,
+				187AD5561D9B5DAD001221E0 /* YYPart */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		187AD5461D9B5DAD001221E0 /* DatePart */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5471D9B5DAD001221E0 /* NSString+Date.h */,
+				187AD5481D9B5DAD001221E0 /* NSString+Date.m */,
+			);
+			path = DatePart;
+			sourceTree = "<group>";
+		};
+		187AD5491D9B5DAD001221E0 /* UIPart */ = {
+			isa = PBXGroup;
+			children = (
+				187AD54A1D9B5DAD001221E0 /* NSDate+ZYLDateExtension.h */,
+				187AD54B1D9B5DAD001221E0 /* NSDate+ZYLDateExtension.m */,
+				187AD54C1D9B5DAD001221E0 /* NSString+ZYLEmoji.h */,
+				187AD54D1D9B5DAD001221E0 /* NSString+ZYLEmoji.m */,
+				187AD54E1D9B5DAD001221E0 /* UIColor+ZYLHexColor.h */,
+				187AD54F1D9B5DAD001221E0 /* UIColor+ZYLHexColor.m */,
+				187AD5501D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.h */,
+				187AD5511D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.m */,
+				187AD5521D9B5DAD001221E0 /* UIImage+Watermark.h */,
+				187AD5531D9B5DAD001221E0 /* UIImage+Watermark.m */,
+				187AD5541D9B5DAD001221E0 /* UIView+GradientView.h */,
+				187AD5551D9B5DAD001221E0 /* UIView+GradientView.m */,
+			);
+			path = UIPart;
+			sourceTree = "<group>";
+		};
+		187AD5561D9B5DAD001221E0 /* YYPart */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5571D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.h */,
+				187AD5581D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.m */,
+				187AD5591D9B5DAD001221E0 /* UIImage+YYWebImage.h */,
+				187AD55A1D9B5DAD001221E0 /* UIImage+YYWebImage.m */,
+				187AD55B1D9B5DAD001221E0 /* UIView+YYAdd.h */,
+				187AD55C1D9B5DAD001221E0 /* UIView+YYAdd.m */,
+			);
+			path = YYPart;
+			sourceTree = "<group>";
+		};
+		187AD55D1D9B5DAD001221E0 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				187AD55E1D9B5DAD001221E0 /* BasePart */,
+				187AD5631D9B5DAD001221E0 /* HomePagePart */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		187AD55E1D9B5DAD001221E0 /* BasePart */ = {
+			isa = PBXGroup;
+			children = (
+				187AD55F1D9B5DAD001221E0 /* Controller */,
+				187AD5601D9B5DAD001221E0 /* Model */,
+				187AD5611D9B5DAD001221E0 /* RequestManager */,
+				187AD5621D9B5DAD001221E0 /* View */,
+			);
+			path = BasePart;
+			sourceTree = "<group>";
+		};
+		187AD55F1D9B5DAD001221E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189FE71B1D9B65EA00304409 /* BaseViewController.h */,
+				189FE71C1D9B65EA00304409 /* BaseViewController.m */,
+				189FE7241D9B66BB00304409 /* HLLTabbarController.h */,
+				189FE7251D9B66BB00304409 /* HLLTabbarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		187AD5601D9B5DAD001221E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189FE71E1D9B65F500304409 /* BaseModel.h */,
+				189FE71F1D9B65F500304409 /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		187AD5611D9B5DAD001221E0 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		187AD5621D9B5DAD001221E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187AD5631D9B5DAD001221E0 /* HomePagePart */ = {
+			isa = PBXGroup;
+			children = (
+				189FE7171D9B640400304409 /* Controller */,
+				189FE7181D9B640400304409 /* Model */,
+				189FE7191D9B640400304409 /* RequestManager */,
+				189FE71A1D9B640400304409 /* View */,
+			);
+			path = HomePagePart;
+			sourceTree = "<group>";
+		};
+		187AD5641D9B5DAD001221E0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5651D9B5DAD001221E0 /* ExpandButton */,
+				187AD56C1D9B5DAD001221E0 /* HyPopMenuView */,
+				187AD5731D9B5DAD001221E0 /* LineProgressView */,
+				187AD5781D9B5DAD001221E0 /* ProgressHud */,
+				187AD57B1D9B5DAD001221E0 /* Utilities */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		187AD5651D9B5DAD001221E0 /* ExpandButton */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5661D9B5DAD001221E0 /* ExpandButton.h */,
+				187AD5671D9B5DAD001221E0 /* ExpandButton.m */,
+				187AD5681D9B5DAD001221E0 /* Factory.h */,
+				187AD5691D9B5DAD001221E0 /* Factory.m */,
+				187AD56A1D9B5DAD001221E0 /* UIImageView+CornerRadius.h */,
+				187AD56B1D9B5DAD001221E0 /* UIImageView+CornerRadius.m */,
+			);
+			path = ExpandButton;
+			sourceTree = "<group>";
+		};
+		187AD56C1D9B5DAD001221E0 /* HyPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				187AD56D1D9B5DAD001221E0 /* HyPopMenuView.h */,
+				187AD56E1D9B5DAD001221E0 /* HyPopMenuView.m */,
+				187AD56F1D9B5DAD001221E0 /* MenuLabel.h */,
+				187AD5701D9B5DAD001221E0 /* MenuLabel.m */,
+				187AD5711D9B5DAD001221E0 /* UIColor+ImageGetColor.h */,
+				187AD5721D9B5DAD001221E0 /* UIColor+ImageGetColor.m */,
+			);
+			path = HyPopMenuView;
+			sourceTree = "<group>";
+		};
+		187AD5731D9B5DAD001221E0 /* LineProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5741D9B5DAD001221E0 /* LineProgressLayer.h */,
+				187AD5751D9B5DAD001221E0 /* LineProgressLayer.m */,
+				187AD5761D9B5DAD001221E0 /* LineProgressView.h */,
+				187AD5771D9B5DAD001221E0 /* LineProgressView.m */,
+			);
+			path = LineProgressView;
+			sourceTree = "<group>";
+		};
+		187AD5781D9B5DAD001221E0 /* ProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5791D9B5DAD001221E0 /* MBProgressHUD+ZYL.h */,
+				187AD57A1D9B5DAD001221E0 /* MBProgressHUD+ZYL.m */,
+			);
+			path = ProgressHud;
+			sourceTree = "<group>";
+		};
+		187AD57B1D9B5DAD001221E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				187AD57C1D9B5DAD001221E0 /* Config.pch */,
+				187AD57D1D9B5DAD001221E0 /* Utility.h */,
+				187AD57E1D9B5DAD001221E0 /* Utility.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		187AD57F1D9B5DAD001221E0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5801D9B5DAD001221E0 /* ClearCacheTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		187AD5801D9B5DAD001221E0 /* ClearCacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				187AD5811D9B5DAD001221E0 /* HLLCleanCache.h */,
+				187AD5821D9B5DAD001221E0 /* HLLCleanCache.m */,
+			);
+			path = ClearCacheTool;
+			sourceTree = "<group>";
+		};
+		187AD5831D9B5DAD001221E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		189FE7171D9B640400304409 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189FE7211D9B662000304409 /* HLLHomePageViewController.h */,
+				189FE7221D9B662000304409 /* HLLHomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		189FE7181D9B640400304409 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189FE7191D9B640400304409 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		189FE71A1D9B640400304409 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68BD58E98E7BD337C95B7047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF73012056E419B4DA63AB1 /* Pods-MyFreedomPro.debug.xcconfig */,
+				8955D7EEDDC055FDEB550893 /* Pods-MyFreedomPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4835EB24AD7D6DE91ED3635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56F4A3FCC44E9CADDC392A40 /* libPods-MyFreedomPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +495,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187AD53B1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomPro" */;
 			buildPhases = (
+				A53ED50C6603B1D72D787D33 /* [CP] Check Pods Manifest.lock */,
 				187AD50A1D9B57EC001221E0 /* Sources */,
 				187AD50B1D9B57EC001221E0 /* Frameworks */,
 				187AD50C1D9B57EC001221E0 /* Resources */,
+				9DBA76E4F4A1F11964C670C0 /* [CP] Embed Pods Frameworks */,
+				38B2652F8241E963815B9B1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +553,13 @@
 		187AD5061D9B57EC001221E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HLL;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "亮哥";
 				TargetAttributes = {
 					187AD50D1D9B57EC001221E0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D28F2V9D23;
 						ProvisioningStyle = Automatic;
 					};
 					187AD5261D9B57EE001221E0 = {
@@ -246,9 +599,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187AD5211D9B57EE001221E0 /* LaunchScreen.storyboard in Resources */,
+				189FE72A1D9B6B4D00304409 /* LaunchScreen.storyboard in Resources */,
 				187AD51E1D9B57EE001221E0 /* Assets.xcassets in Resources */,
-				187AD51C1D9B57EE001221E0 /* Main.storyboard in Resources */,
+				189FE7281D9B6B0900304409 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +621,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38B2652F8241E963815B9B1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFreedomPro/Pods-MyFreedomPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DBA76E4F4A1F11964C670C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFreedomPro/Pods-MyFreedomPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53ED50C6603B1D72D787D33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		187AD50A1D9B57EC001221E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187AD5191D9B57EE001221E0 /* ViewController.m in Sources */,
-				187AD5161D9B57EE001221E0 /* AppDelegate.m in Sources */,
+				187AD5941D9B5DAD001221E0 /* LineProgressLayer.m in Sources */,
+				189FE71D1D9B65EA00304409 /* BaseViewController.m in Sources */,
+				187AD5981D9B5DAD001221E0 /* HLLCleanCache.m in Sources */,
+				187AD5961D9B5DAD001221E0 /* MBProgressHUD+ZYL.m in Sources */,
+				187AD58C1D9B5DAD001221E0 /* UIImage+YYWebImage.m in Sources */,
+				187AD5891D9B5DAD001221E0 /* UIImage+Watermark.m in Sources */,
+				187AD5971D9B5DAD001221E0 /* Utility.m in Sources */,
+				189FE7231D9B662000304409 /* HLLHomePageViewController.m in Sources */,
+				187AD58D1D9B5DAD001221E0 /* UIView+YYAdd.m in Sources */,
+				187AD5861D9B5DAD001221E0 /* NSString+ZYLEmoji.m in Sources */,
+				187AD5871D9B5DAD001221E0 /* UIColor+ZYLHexColor.m in Sources */,
+				187AD5851D9B5DAD001221E0 /* NSDate+ZYLDateExtension.m in Sources */,
 				187AD5131D9B57EE001221E0 /* main.m in Sources */,
+				187AD5931D9B5DAD001221E0 /* UIColor+ImageGetColor.m in Sources */,
+				189FE7101D9B631F00304409 /* HLLAppDelegate.m in Sources */,
+				187AD58F1D9B5DAD001221E0 /* Factory.m in Sources */,
+				187AD5911D9B5DAD001221E0 /* HyPopMenuView.m in Sources */,
+				187AD58A1D9B5DAD001221E0 /* UIView+GradientView.m in Sources */,
+				187AD5881D9B5DAD001221E0 /* UIImage+HLLCutAndMerge.m in Sources */,
+				187AD5921D9B5DAD001221E0 /* MenuLabel.m in Sources */,
+				187AD58E1D9B5DAD001221E0 /* ExpandButton.m in Sources */,
+				187AD5841D9B5DAD001221E0 /* NSString+Date.m in Sources */,
+				187AD58B1D9B5DAD001221E0 /* UIGestureRecognizer+YYAdd.m in Sources */,
+				189FE7261D9B66BB00304409 /* HLLTabbarController.m in Sources */,
+				187AD5951D9B5DAD001221E0 /* LineProgressView.m in Sources */,
+				189FE7201D9B65F500304409 /* BaseModel.m in Sources */,
+				187AD5901D9B5DAD001221E0 /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +734,6 @@
 			targetProxy = 187AD5331D9B57EE001221E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		187AD51A1D9B57EE001221E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				187AD51B1D9B57EE001221E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		187AD51F1D9B57EE001221E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				187AD5201D9B57EE001221E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		187AD5391D9B57EE001221E0 /* Debug */ = {
@@ -370,7 +776,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -420,8 +826,11 @@
 		};
 		187AD53C1D9B57EE001221E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF73012056E419B4DA63AB1 /* Pods-MyFreedomPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D28F2V9D23;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyFreedomPro/HLLConfig.pch";
 				INFOPLIST_FILE = MyFreedomPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomPro;
@@ -431,8 +840,11 @@
 		};
 		187AD53D1D9B57EE001221E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8955D7EEDDC055FDEB550893 /* Pods-MyFreedomPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D28F2V9D23;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyFreedomPro/HLLConfig.pch";
 				INFOPLIST_FILE = MyFreedomPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YingJun.MyFreedomPro;
@@ -505,6 +917,7 @@
 				187AD53D1D9B57EE001221E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187AD53E1D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +926,7 @@
 				187AD5401D9B57EE001221E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187AD5411D9B57EE001221E0 /* Build configuration list for PBXNativeTarget "MyFreedomProUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +935,7 @@
 				187AD5431D9B57EE001221E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
